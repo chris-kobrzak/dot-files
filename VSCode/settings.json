@@ -1,0 +1,14 @@
+{
+    "window.zoomLevel": 1,
+    "editor.tabSize": 2,
+    "editor.rulers": [80],
+    "files.exclude": {
+        "**/.DS_Store": true,
+        "**/.git": true,
+        "**/node_modules": true
+    },
+    "files.trimTrailingWhitespace": true,
+    "workbench.sideBar.location": "left",
+    "workbench.activityBar.visible": true,
+    "editor.minimap.enabled": false
+}
