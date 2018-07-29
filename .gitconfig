@@ -1,0 +1,23 @@
+[user]
+	name = Chris Kobrzak
+[filter "media"]
+	required = true
+	clean = git media clean %f
+	smudge = git media smudge %f
+[push]
+	default = tracking
+[alias]
+	st = status
+	br = branch
+	co = checkout
+	cd = checkout
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short --color=always
+	ten = log --oneline -n 10
+[diff]
+	tool = vimdiff #opendiff
+[credential]
+	helper = osxkeychain
+[core]
+	excludesfile = /Volumes/Data/Users/chris/.gitignore_global
+[rebase]
+	autosquash = true
