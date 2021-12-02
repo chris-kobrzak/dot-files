@@ -10,7 +10,7 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -30,7 +30,6 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "terminal.integrated.fontFamily": "Roboto Mono Medium for Powerline",
-  "todo-tree.tree.showScanModeButton": false,
   "omnisharp.organizeImportsOnFormat": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "files.exclude": {
