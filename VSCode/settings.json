@@ -1,14 +1,41 @@
 {
-    "window.zoomLevel": 1,
-    "editor.tabSize": 2,
-    "editor.rulers": [80],
-    "files.exclude": {
-        "**/.DS_Store": true,
-        "**/.git": true,
-        "**/node_modules": true
-    },
-    "files.trimTrailingWhitespace": true,
-    "workbench.sideBar.location": "left",
-    "workbench.activityBar.visible": true,
-    "editor.minimap.enabled": false
+  "window.zoomLevel": 1,
+  "workbench.sideBar.location": "right",
+  "workbench.activityBar.visible": true,
+  "editor.minimap.enabled": false,
+  "editor.snippetSuggestions": "top",
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.rulers": [80],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "source.js punctuation.terminator",
+          "source.jsx punctuation.terminator",
+          "source.ts punctuation.terminator",
+          "source.tsx punctuation.terminator"
+        ],
+        "settings": {
+          "foreground": "#0052525a" // dark mode
+        }
+      }
+    ]
+  },
+  "files.trimTrailingWhitespace": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "terminal.integrated.fontFamily": "Roboto Mono Medium for Powerline",
+  "todo-tree.tree.showScanModeButton": false,
+  "omnisharp.organizeImportsOnFormat": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/node_modules": true
+  }
 }
