@@ -1,0 +1,14 @@
+code --list-extensions
+alefragnani.Bookmarks
+andys8.jest-snippets
+dbaeumer.vscode-eslint
+eamodio.gitlens
+esbenp.prettier-vscode
+gieson.dupe-file
+hbenl.vscode-test-explorer
+jmrog.vscode-nuget-package-manager
+mikestead.dotenv
+ms-dotnettools.csharp
+ms-vscode.test-adapter-converter
+Orta.vscode-jest
+wmaurer.change-case
